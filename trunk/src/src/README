@@ -1,0 +1,43 @@
+pep8checker README file
+=================
+
+INTRO
+~~~~~
+pep8checker is a tool that aims on validating python
+codes. It is maded following the PEP-8 especification.
+
+For more information go to:
+http://www.python.org/dev/peps/pep-0008/
+
+LICENSING
+~~~~~~~~~~~~
+This program is under GPL version 2 or later,
+please read the COPYING file for more information
+
+DEPENDENCIES
+~~~~~~~~~~~~
+ * glib-2.0
+
+INSTALLATION
+~~~~~~~~~~~~
+Just use make install.
+For now we are using a hard-installing way
+because i just do not know how to use autotools yet.
+If you do not install as superuser the "install"
+macro will create a couple of dirs in your home:
+~/lib/
+~/bin/
+so you must export the environment variables to use the program:
+export PATH=$PATH:~/bin/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/lib/
+if you install as superuser, the "install" macro will install
+on /usr/lib and /usr/bin paths.
+
+
+PACKAGERS
+~~~~~~~~~
+TODO
+
+TRANSLATION
+~~~~~~~~~~~
+TO IMPLEMENT
