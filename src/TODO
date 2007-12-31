@@ -1,6 +1,0 @@
-2007-12-30  Gabriel Falcão <gabriel@guake-terminal.org>
-
-	* Implement autotools
-	* Implement internationalization, and then,
-		change all human-relevant strings to english
-		for a future translation.
