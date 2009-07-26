@@ -52,7 +52,7 @@ uninstall:
 		${UNINSTALL} ${HOME}/bin/${EXECNAME} 
 
 libs:
-	gcc -fPIC -DPIC -soname -shared -Wall -Wextra -Werror `pkg-config --libs --cflags glib-2.0` ${LIBSOURCE} -o ${LIBNAME}
+	gcc -fPIC -DPIC -shared -Wall -Wextra -Werror `pkg-config --libs --cflags glib-2.0` ${LIBSOURCE} -o ${LIBNAME}
 
 clean:
 	rm -f ${EXECNAME}

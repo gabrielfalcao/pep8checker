@@ -71,5 +71,6 @@ main (int argc, char *argv[])
           files_list++;
         }
     }
+  g_free(option_context);
   return 0;
 }
